@@ -1,0 +1,149 @@
+[
+  {
+    "personalInfo": [
+      {
+        "id": 1,
+        "name": { "first": "Alex", "last": "Kim" },
+        "birthDate": "1992-07-15",
+        "gender": "male",
+        "contact": {
+          "email": "alex.kim@example.com",
+          "phone": "+82-10-1234-5678"
+        },
+        "occupationId": 101,
+        "educationIds": [201, 202],
+        "hobbyIds": [301, 302],
+        "skillIds": [401, 402, 403]
+      },
+      {
+        "id": 2,
+        "name": { "first": "Soojin", "last": "Park" },
+        "birthDate": "1995-02-10",
+        "gender": "female",
+        "contact": {
+          "email": "soojin.park@example.com",
+          "phone": "+82-10-9876-5432"
+        },
+        "occupationId": 102,
+        "educationIds": [202],
+        "hobbyIds": [301, 303],
+        "skillIds": [402, 404]
+      },
+      {
+        "id": 3,
+        "name": { "first": "Daniel", "last": "Choi" },
+        "birthDate": "1989-11-30",
+        "gender": "male",
+        "contact": {
+          "email": "daniel.choi@example.com",
+          "phone": "+82-10-1122-3344"
+        },
+        "occupationId": 101,
+        "educationIds": [201],
+        "hobbyIds": [302, 304],
+        "skillIds": [401, 405]
+      }
+    ]
+  },
+  {
+    "currentOccupation": [
+      {
+        "id": 101,
+        "title": "Frontend Developer",
+        "company": {
+          "name": "TechNova Inc.",
+          "location": {
+            "city": "Seoul",
+            "district": "Mapo"
+          },
+          "website": "https://technova.io"
+        },
+        "remote": true,
+        "startYear": 2021
+      },
+      {
+        "id": 102,
+        "title": "UX Designer",
+        "company": {
+          "name": "Designify",
+          "location": {
+            "city": "Busan",
+            "district": "Haeundae"
+          },
+          "website": "https://designify.kr"
+        },
+        "remote": false,
+        "startYear": 2022
+      }
+    ]
+  },
+  {
+    "education": [
+      {
+        "id": 201,
+        "institution": "Seoul National University",
+        "degree": "B.Sc. in Computer Science",
+        "graduationYear": 2014
+      },
+      {
+        "id": 202,
+        "institution": "KAIST",
+        "degree": "M.Sc. in Human-Computer Interaction",
+        "graduationYear": 2016
+      }
+    ]
+  },
+  {
+    "hobbies": [
+      {
+        "id": 301,
+        "name": "Photography",
+        "type": "Creative"
+      },
+      {
+        "id": 302,
+        "name": "Rock Climbing",
+        "type": "Sport"
+      },
+      {
+        "id": 303,
+        "name": "Calligraphy",
+        "type": "Art"
+      },
+      {
+        "id": 304,
+        "name": "Chess",
+        "type": "Strategy"
+      }
+    ]
+  },
+  {
+    "skills": [
+      {
+        "id": 401,
+        "name": "JavaScript",
+        "level": "Expert"
+      },
+      {
+        "id": 402,
+        "name": "React",
+        "level": "Advanced"
+      },
+      {
+        "id": 403,
+        "name": "Node.js",
+        "level": "Intermediate"
+      },
+      {
+        "id": 404,
+        "name": "Figma",
+        "level": "Advanced"
+      },
+      {
+        "id": 405,
+        "name": "TypeScript",
+        "level": "Intermediate"
+      }
+    ]
+  }
+]
