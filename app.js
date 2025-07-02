@@ -77,11 +77,38 @@ function find(targetKey, json) {
 
 const dataJson= callJSON()
 
-const getObjects = []
-for (const section of dataJson) {
-  getObjects.push(Object.keys(section))
+const getObjects = dataJson.map(section => Object.keys(section)[0]);
+const users = dataJson[0][getObjects[0]];
+const occupations = dataJson[1][getObjects[1]];
+const educations = dataJson[2][getObjects[2]];
+const hobbies = dataJson[3][getObjects[3]];
+const skills = dataJson[4][getObjects[4]];
+
+for (const user of users) {
+  console.log("\n🔹 User:", user.name.first, user.name.last);
+
+  // Occupation
+  const occupation = occupations.find(o => o.id === user.occupationId);
+  console.log("Occupation:", occupation?.title);
+
+  // Education
+  console.log("Education:");
+  for (const eduId of user.educationIds) {
+    const edu = educations.find(e => e.id === eduId);
+    console.log(` - ${edu.institution}, ${edu.degree}`);
+  }
+
+  // Hobbies
+  console.log("Hobbies:");
+  for (const hobbyId of user.hobbyIds) {
+    const hobby = hobbies.find(h => h.id === hobbyId);
+    console.log(` - ${hobby.name} (${hobby.type})`);
+  }
+
+  // Skills
+  console.log("Skills:");
+  for (const skillId of user.skillIds) {
+    const skill = skills.find(s => s.id === skillId);
+    console.log(` - ${skill.name} (${skill.level})`);
+  }
 }
-
-console.log(getObjects)
-
-
