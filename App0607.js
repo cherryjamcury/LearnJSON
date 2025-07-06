@@ -19,7 +19,7 @@ function loadJSON(filename) {
 }
 
 // Load & Structure
-const jsonObj = loadJSON('myData.json');
+const jsonObj = loadJSON('data0607.json');
 const jsonStuff = jsonObj["stuff"];
 const jsonKitchen = jsonStuff["kitchen"];
 const jsonEmployees = jsonObj["employees"];
@@ -141,6 +141,7 @@ function extractField(jsonObj, field) {
     return null;
   });
 }
+
 
 // -------------------
 // Test Function Calls (uncomment to use)
