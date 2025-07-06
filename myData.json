@@ -1,0 +1,617 @@
+{
+  "stuff": {
+    "hall": {
+      "Waiters": [
+        "#10005",
+        "#10011",
+        "#10027",
+        "#10029",
+        "#10046"
+      ],
+      "Hosts": [
+        "#10017",
+        "#10034"
+      ]
+    },
+    "kitchen": {
+      "HeadChef": [
+        "#10004",
+        "#10020",
+        "#10025",
+        "#10041",
+        "#10050"
+      ],
+      "SousChef": [
+        "#10042"
+      ],
+      "StationChef": [],
+      "JuniorCook": [
+        "#10006"
+      ],
+      "KitchenAssistant": [
+        "#10001",
+        "#10022"
+      ],
+      "Dishwasher": [
+        "#10016",
+        "#10035"
+      ]
+    },
+    "bar": {
+      "Bartenders": [
+        "#10012",
+        "#10015",
+        "#10031",
+        "#10033",
+        "#10044",
+        "#10048"
+      ]
+    },
+    "cleaning": {
+      "Janitors": [
+        "#10024",
+        "#10040"
+      ]
+    },
+    "management": {
+      "Managers": [
+        "#10013",
+        "#10023",
+        "#10026",
+        "#10032"
+      ]
+    }
+  },
+  "employees": {
+    "#10001": {
+      "name": "Luna",
+      "gender": "female",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2020-06-01",
+      "contact": "010-9452-9849",
+      "status": "active"
+    },
+    "#10002": {
+      "name": "Mia",
+      "gender": "male",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2022-06-02",
+      "contact": "010-5105-9587",
+      "status": "terminated"
+    },
+    "#10003": {
+      "name": "Elijah",
+      "gender": "female",
+      "position": "Dishwasher",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2200000,
+      "hiredDate": "2020-04-07",
+      "contact": "010-2659-6942",
+      "status": "terminated"
+    },
+    "#10004": {
+      "name": "Harry",
+      "gender": "male",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2017-12-17",
+      "contact": "010-6414-5235",
+      "status": "on_leave"
+    },
+    "#10005": {
+      "name": "Robert",
+      "gender": "male",
+      "position": "Waiter",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 2800000,
+      "hiredDate": "2023-04-10",
+      "contact": "010-8069-4147",
+      "status": "on_leave"
+    },
+    "#10006": {
+      "name": "Alice",
+      "gender": "male",
+      "position": "Junior Cook",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 3200000,
+      "hiredDate": "2022-11-10",
+      "contact": "010-5201-6870",
+      "status": "active"
+    },
+    "#10007": {
+      "name": "Elijah",
+      "gender": "female",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2020-11-02",
+      "contact": "010-6954-8669",
+      "status": "terminated"
+    },
+    "#10008": {
+      "name": "Ella",
+      "gender": "female",
+      "position": "Host",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 3000000,
+      "hiredDate": "2017-09-16",
+      "contact": "010-8246-3783",
+      "status": "terminated"
+    },
+    "#10009": {
+      "name": "Harper",
+      "gender": "female",
+      "position": "Dishwasher",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2200000,
+      "hiredDate": "2021-12-09",
+      "contact": "010-3640-9187",
+      "status": "terminated"
+    },
+    "#10010": {
+      "name": "Chloe",
+      "gender": "male",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2018-12-05",
+      "contact": "010-6019-5210",
+      "status": "terminated"
+    },
+    "#10011": {
+      "name": "Lucas",
+      "gender": "female",
+      "position": "Waiter",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 2800000,
+      "hiredDate": "2017-10-22",
+      "contact": "010-5347-9408",
+      "status": "active"
+    },
+    "#10012": {
+      "name": "Luna",
+      "gender": "male",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2022-03-21",
+      "contact": "010-3160-3797",
+      "status": "on_leave"
+    },
+    "#10013": {
+      "name": "Alice",
+      "gender": "male",
+      "position": "Manager",
+      "department": "management",
+      "roleLevel": "senior",
+      "salary": 7000000,
+      "hiredDate": "2022-09-08",
+      "contact": "010-3083-6308",
+      "status": "on_leave"
+    },
+    "#10014": {
+      "name": "Lucas",
+      "gender": "male",
+      "position": "Junior Cook",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 3200000,
+      "hiredDate": "2018-02-17",
+      "contact": "010-7799-7419",
+      "status": "terminated"
+    },
+    "#10015": {
+      "name": "David",
+      "gender": "male",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2024-09-22",
+      "contact": "010-3959-4926",
+      "status": "on_leave"
+    },
+    "#10016": {
+      "name": "Ivy",
+      "gender": "male",
+      "position": "Dishwasher",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2200000,
+      "hiredDate": "2021-02-15",
+      "contact": "010-1940-2707",
+      "status": "active"
+    },
+    "#10017": {
+      "name": "Oscar",
+      "gender": "female",
+      "position": "Host",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 3000000,
+      "hiredDate": "2017-06-13",
+      "contact": "010-4812-3713",
+      "status": "active"
+    },
+    "#10018": {
+      "name": "Noah",
+      "gender": "female",
+      "position": "Waiter",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 2800000,
+      "hiredDate": "2022-04-11",
+      "contact": "010-2175-6766",
+      "status": "terminated"
+    },
+    "#10019": {
+      "name": "Zoe",
+      "gender": "male",
+      "position": "Station Chef",
+      "department": "kitchen",
+      "roleLevel": "mid",
+      "salary": 4000000,
+      "hiredDate": "2018-06-21",
+      "contact": "010-9273-9923",
+      "status": "terminated"
+    },
+    "#10020": {
+      "name": "Logan",
+      "gender": "male",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2017-02-14",
+      "contact": "010-4650-5461",
+      "status": "on_leave"
+    },
+    "#10021": {
+      "name": "Emma",
+      "gender": "female",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2024-10-19",
+      "contact": "010-1600-9509",
+      "status": "terminated"
+    },
+    "#10022": {
+      "name": "Gina",
+      "gender": "female",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2022-07-26",
+      "contact": "010-3608-2347",
+      "status": "active"
+    },
+    "#10023": {
+      "name": "Robert",
+      "gender": "female",
+      "position": "Manager",
+      "department": "management",
+      "roleLevel": "senior",
+      "salary": 7000000,
+      "hiredDate": "2019-05-26",
+      "contact": "010-9431-5983",
+      "status": "on_leave"
+    },
+    "#10024": {
+      "name": "Alice",
+      "gender": "male",
+      "position": "Janitor",
+      "department": "cleaning",
+      "roleLevel": "junior",
+      "salary": 2200000,
+      "hiredDate": "2018-06-27",
+      "contact": "010-2655-7536",
+      "status": "on_leave"
+    },
+    "#10025": {
+      "name": "Elijah",
+      "gender": "female",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2024-07-17",
+      "contact": "010-4898-7375",
+      "status": "on_leave"
+    },
+    "#10026": {
+      "name": "Ava",
+      "gender": "male",
+      "position": "Manager",
+      "department": "management",
+      "roleLevel": "senior",
+      "salary": 7000000,
+      "hiredDate": "2017-06-12",
+      "contact": "010-8681-6266",
+      "status": "on_leave"
+    },
+    "#10027": {
+      "name": "Ivy",
+      "gender": "female",
+      "position": "Waiter",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 2800000,
+      "hiredDate": "2020-11-15",
+      "contact": "010-3912-4610",
+      "status": "active"
+    },
+    "#10028": {
+      "name": "Jayden",
+      "gender": "female",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2017-07-28",
+      "contact": "010-8210-9949",
+      "status": "terminated"
+    },
+    "#10029": {
+      "name": "Yumi",
+      "gender": "male",
+      "position": "Waiter",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 2800000,
+      "hiredDate": "2017-01-03",
+      "contact": "010-5881-9770",
+      "status": "on_leave"
+    },
+    "#10030": {
+      "name": "Jayden",
+      "gender": "female",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2021-06-27",
+      "contact": "010-9421-2622",
+      "status": "terminated"
+    },
+    "#10031": {
+      "name": "Emily",
+      "gender": "male",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2024-01-10",
+      "contact": "010-8664-6676",
+      "status": "on_leave"
+    },
+    "#10032": {
+      "name": "Zoe",
+      "gender": "male",
+      "position": "Manager",
+      "department": "management",
+      "roleLevel": "senior",
+      "salary": 7000000,
+      "hiredDate": "2018-10-30",
+      "contact": "010-7786-1913",
+      "status": "active"
+    },
+    "#10033": {
+      "name": "Chloe",
+      "gender": "female",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2023-01-07",
+      "contact": "010-9473-2802",
+      "status": "on_leave"
+    },
+    "#10034": {
+      "name": "Ben",
+      "gender": "male",
+      "position": "Host",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 3000000,
+      "hiredDate": "2023-01-19",
+      "contact": "010-6797-8417",
+      "status": "active"
+    },
+    "#10035": {
+      "name": "Emma",
+      "gender": "female",
+      "position": "Dishwasher",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2200000,
+      "hiredDate": "2017-08-18",
+      "contact": "010-7406-7470",
+      "status": "active"
+    },
+    "#10036": {
+      "name": "Lucas",
+      "gender": "female",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2018-08-13",
+      "contact": "010-4922-8404",
+      "status": "terminated"
+    },
+    "#10037": {
+      "name": "Leo",
+      "gender": "male",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2024-03-21",
+      "contact": "010-1870-9363",
+      "status": "terminated"
+    },
+    "#10038": {
+      "name": "David",
+      "gender": "male",
+      "position": "Manager",
+      "department": "management",
+      "roleLevel": "senior",
+      "salary": 7000000,
+      "hiredDate": "2020-03-26",
+      "contact": "010-2878-1025",
+      "status": "terminated"
+    },
+    "#10039": {
+      "name": "Sophia",
+      "gender": "female",
+      "position": "Kitchen Assistant",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 2900000,
+      "hiredDate": "2017-02-10",
+      "contact": "010-9282-5636",
+      "status": "terminated"
+    },
+    "#10040": {
+      "name": "Lucas",
+      "gender": "male",
+      "position": "Janitor",
+      "department": "cleaning",
+      "roleLevel": "junior",
+      "salary": 2200000,
+      "hiredDate": "2023-12-10",
+      "contact": "010-4735-9589",
+      "status": "active"
+    },
+    "#10041": {
+      "name": "Elijah",
+      "gender": "female",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2018-04-03",
+      "contact": "010-3455-6234",
+      "status": "active"
+    },
+    "#10042": {
+      "name": "Logan",
+      "gender": "male",
+      "position": "Sous Chef",
+      "department": "kitchen",
+      "roleLevel": "mid",
+      "salary": 4300000,
+      "hiredDate": "2019-01-09",
+      "contact": "010-9059-1593",
+      "status": "on_leave"
+    },
+    "#10043": {
+      "name": "Ava",
+      "gender": "male",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2018-01-22",
+      "contact": "010-9929-5945",
+      "status": "terminated"
+    },
+    "#10044": {
+      "name": "Luna",
+      "gender": "male",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2023-02-05",
+      "contact": "010-2232-8410",
+      "status": "active"
+    },
+    "#10045": {
+      "name": "Oliver",
+      "gender": "male",
+      "position": "Host",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 3000000,
+      "hiredDate": "2022-04-17",
+      "contact": "010-5079-3963",
+      "status": "terminated"
+    },
+    "#10046": {
+      "name": "Grace",
+      "gender": "male",
+      "position": "Waiter",
+      "department": "hall",
+      "roleLevel": "junior",
+      "salary": 2800000,
+      "hiredDate": "2021-08-14",
+      "contact": "010-3059-2512",
+      "status": "on_leave"
+    },
+    "#10047": {
+      "name": "Chloe",
+      "gender": "female",
+      "position": "Junior Cook",
+      "department": "kitchen",
+      "roleLevel": "junior",
+      "salary": 3200000,
+      "hiredDate": "2019-11-23",
+      "contact": "010-8867-8089",
+      "status": "terminated"
+    },
+    "#10048": {
+      "name": "James",
+      "gender": "female",
+      "position": "Bartender",
+      "department": "bar",
+      "roleLevel": "mid",
+      "salary": 3500000,
+      "hiredDate": "2019-11-03",
+      "contact": "010-8922-7836",
+      "status": "on_leave"
+    },
+    "#10049": {
+      "name": "Leo",
+      "gender": "male",
+      "position": "Manager",
+      "department": "management",
+      "roleLevel": "senior",
+      "salary": 7000000,
+      "hiredDate": "2022-02-18",
+      "contact": "010-9836-5379",
+      "status": "terminated"
+    },
+    "#10050": {
+      "name": "Lucas",
+      "gender": "female",
+      "position": "Head Chef",
+      "department": "kitchen",
+      "roleLevel": "senior",
+      "salary": 5500000,
+      "hiredDate": "2022-03-19",
+      "contact": "010-5326-3184",
+      "status": "on_leave"
+    }
+  }
+}
